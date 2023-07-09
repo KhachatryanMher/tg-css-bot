@@ -1,0 +1,25 @@
+{
+  "name": "tg-css-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch app.js",
+    "prod": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "engine": {
+    "npm": "8.5.5",
+    "node": "16.15.0"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "eslint": "^8.44.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^1.0.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
