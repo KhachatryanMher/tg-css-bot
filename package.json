@@ -5,15 +5,18 @@
   "main": "index.js",
   "scripts": {
     "dev": "node --watch app.js",
-    "prod": "node app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "engine": {
-    "npm": "8.5.5",
-    "node": "16.15.0"
+    "npm": "9.5.1",
+    "node": "18.16.1"
   },
   "license": "ISC",
+  "dependencies": {
+    "telegraf": "4.12.2"
+  },
   "devDependencies": {
     "dotenv": "^16.3.1",
     "eslint": "^8.44.0",
