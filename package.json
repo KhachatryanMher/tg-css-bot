@@ -13,12 +13,12 @@
     "npm": "9.5.1",
     "node": "18.16.1"
   },
+  "type": "module",
   "license": "ISC",
   "dependencies": {
     "telegraf": "4.12.2"
   },
   "devDependencies": {
-    "dotenv": "^16.3.1",
     "eslint": "^8.44.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.26.0",
