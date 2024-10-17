@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch app.js",
-    "start": "node app.js"
+    "start": "node -r dotenv/config ./src/index.js",
+    "dev": "nodemon --exec npm run start ./src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,12 +17,9 @@
   "dependencies": {
     "telegraf": "4.12.2"
   },
+  "type": "module",
   "devDependencies": {
-    "dotenv": "^16.3.1",
-    "eslint": "^8.44.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-node": "^1.0.0",
-    "eslint-plugin-promise": "^6.1.1"
+    "dotenv": "16.4.5",
+    "nodemon": "3.1.4"
   }
 }
